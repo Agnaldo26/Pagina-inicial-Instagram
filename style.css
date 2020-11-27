@@ -9,7 +9,7 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; /* 100 viewport height*/
     background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 50rem;  /* 50*14px(font-size do html)*/
 }
     
 
@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden; /* esconde o transbordamento da imagem na borda da div */
 }
 
 .instagram-login {
@@ -81,7 +81,7 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
-
+    margin-bottom: 14px;
 }
 
 .instagram-logout {
@@ -95,6 +95,7 @@ body {
 
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
 }
 
 .get-the-app {
@@ -103,7 +104,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1.3rem 0;
+}
 
+.get-app {
+    cursor: pointer;
 }
 
 .dowload {
@@ -116,7 +120,7 @@ body {
 .app-dowload {
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: cover; /*o cover faz com que a imagem de fundo cubra todo o contâiner*/
 }
 
 .app-dowload:nth-child(1) {
